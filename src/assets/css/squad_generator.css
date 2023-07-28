@@ -1,0 +1,14 @@
+.flex-form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.squad-generator {
+    padding: 1em;
+    text-align: left;
+}
+
+.date {
+    width: calc(50% - 0.5rem);
+}

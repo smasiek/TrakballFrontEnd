@@ -1,0 +1,60 @@
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup > span {
+    margin-bottom: .5rem;
+}
+
+.map-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    margin: 1em;
+    min-width: 60%;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+}
+
+.add-new-place {
+    min-width: 40%;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .map-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .map > .leaflet-container{
+        height: 50vh;
+    }
+
+    .home-container > h4 {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em 0;
+    }
+
+    .home-container > h4 > button {
+        margin: 1em 0;
+    }
+}

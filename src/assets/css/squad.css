@@ -1,0 +1,120 @@
+.squads-boxed {
+    color: #313437;
+    background-color: #eef4f7;
+}
+
+.squads-boxed p {
+    color: #7d8285;
+}
+
+.squads-boxed h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .squads-boxed h2 {
+        margin-bottom: 20px;
+        padding-top: 20px;
+        font-size: 24px;
+    }
+}
+
+.squads-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.squads-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.squads-boxed .squads {
+    padding: 20px 5px 10px 5px
+}
+
+.squads-boxed .item {
+    text-align: center;
+}
+
+.squads-boxed .item .box {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96%;
+    margin-bottom: 2em;
+}
+
+.squads-boxed .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+}
+
+.squads-boxed .item .sport {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.squads-boxed .item .description {
+    font-size: 15px;
+}
+
+.rounded-circle {
+    border-radius: 100%;
+}
+
+.squads-boxed .user-photo {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.squads-boxed .item img {
+    max-width: 160px;
+}
+
+.squads-boxed .controls {
+    font-size: 18px;
+    color: #a2a8ae;
+    width: 100%;
+}
+
+.search > div {
+    width: 80%
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.squads-boxed form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error {
+    margin: auto;
+}
+
+.form-group {
+    width: 100%;
+}
+
+button {
+    margin: 0
+}
